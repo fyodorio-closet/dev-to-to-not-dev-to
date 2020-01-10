@@ -4,6 +4,10 @@ set -e
 set -o pipefail
 set -v
 
+cd functions/submission-created
+npm install
+cd .. 
+
 curl -s -X POST https://api.stackbit.com/project/5e177b5d8f8f7a0019224176/webhook/build/pull > /dev/null
 if [[ -z "${STACKBIT_API_KEY}" ]]; then
     echo "WARNING: No STACKBIT_API_KEY environment variable set, skipping stackbit-pull"
