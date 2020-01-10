@@ -2,4 +2,4 @@
     base = "."
     functions = "./functions"
     publish = "_site"
-    command = "./stackbit-build.sh"
+    command = "cd functions/submission-created && npm install && cd .. && ./stackbit-build.sh"
