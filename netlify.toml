@@ -1,3 +1,5 @@
 [build]
-publish = "_site"
-command = "./stackbit-build.sh"
+    base = "."
+    functions = "./functions"
+    publish = "_site"
+    command = "./stackbit-build.sh"
