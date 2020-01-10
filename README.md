@@ -1,4 +1,5 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/fyodorio/dev-to-to-not-dev-to) 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/89b06338-7465-438b-abf3-94391c588f2e/deploy-status)](https://app.netlify.com/sites/dev-to-to-not-dev-to-77b5d/deploys)
 
 # Stackbit Ampersand Theme
 
