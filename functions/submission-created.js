@@ -1,5 +1,3 @@
-require('dotenv').config()
-
 const fetch = require('node-fetch')
 const { BUTTONDOWN_TOKEN } = process.env
 
